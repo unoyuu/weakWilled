@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var countries = [
+        Country(name: "アメリカ", capital: "ワシントン"),
+        Country(name: "イギリス", capital: "ロンドン"),
+        Country(name: "日本", capital: "東京")
+    ]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(countries) { country in
+            CountryRow(country: country)
         }
-        .padding()
     }
 }
 
