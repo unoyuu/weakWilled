@@ -13,6 +13,7 @@
 		E82683462C33688A00EE2FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82683452C33688A00EE2FB9 /* Preview Assets.xcassets */; };
 		E826834D2C35A21100EE2FB9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E826834C2C35A21100EE2FB9 /* Country.swift */; };
 		E82683512C35A24F00EE2FB9 /* CountryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82683502C35A24F00EE2FB9 /* CountryRow.swift */; };
+		E82683542C3F49FA00EE2FB9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82683532C3F49FA00EE2FB9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E82683452C33688A00EE2FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E826834C2C35A21100EE2FB9 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		E82683502C35A24F00EE2FB9 /* CountryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRow.swift; sourceTree = "<group>"; };
+		E82683532C3F49FA00EE2FB9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82683542C3F49FA00EE2FB9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 			children = (
 				E826833D2C33688800EE2FB9 /* weakWilled */,
 				E826833C2C33688800EE2FB9 /* Products */,
+				E82683522C3F49F900EE2FB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +75,14 @@
 				E82683452C33688A00EE2FB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E82683522C3F49F900EE2FB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82683532C3F49FA00EE2FB9 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +295,8 @@
 				DEVELOPMENT_TEAM = VUZUT7X27A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "位置情報を取得します";
+				INFOPLIST_KEY_NSLocationUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +326,8 @@
 				DEVELOPMENT_TEAM = VUZUT7X27A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "位置情報を取得します";
+				INFOPLIST_KEY_NSLocationUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
