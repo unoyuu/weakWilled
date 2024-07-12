@@ -25,6 +25,7 @@
 		E826834C2C35A21100EE2FB9 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		E82683502C35A24F00EE2FB9 /* CountryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRow.swift; sourceTree = "<group>"; };
 		E82683532C3F49FA00EE2FB9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E82683552C41E54800EE2FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		E826833D2C33688800EE2FB9 /* weakWilled */ = {
 			isa = PBXGroup;
 			children = (
+				E82683552C41E54800EE2FB9 /* Info.plist */,
 				E826833E2C33688800EE2FB9 /* weakWilledApp.swift */,
 				E82683402C33688800EE2FB9 /* ContentView.swift */,
 				E826834C2C35A21100EE2FB9 /* Country.swift */,
@@ -295,6 +297,7 @@
 				DEVELOPMENT_TEAM = VUZUT7X27A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = weakWilled/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_NSLocationUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -326,6 +329,7 @@
 				DEVELOPMENT_TEAM = VUZUT7X27A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = weakWilled/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_NSLocationUsageDescription = "位置情報を取得します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

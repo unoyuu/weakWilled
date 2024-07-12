@@ -6,6 +6,11 @@
 //
 
 import SwiftUI
+import CoreLocation
+
+class LocationManager:NSObject,ObservableObject,CLLocationManagerDelegate{
+    
+}
 
 struct ContentView: View {
     var countries = [
